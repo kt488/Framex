@@ -1,0 +1,29 @@
+{
+  "name": "framex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt488/Framex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kt488/Framex/issues"
+  },
+  "homepage": "https://github.com/kt488/Framex#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "jpeg-js": "^0.4.4",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
