@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build",
-    "start": "next start"
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,11 @@
   "homepage": "https://github.com/kt488/Framex#readme",
   "dependencies": {
     "@supabase/supabase-js": "^2.108.2",
+    "@vitejs/plugin-react": "^4.7.0",
     "jpeg-js": "^0.4.4",
-    "next": "^16.2.9",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.0",
+    "vite": "^6.4.3"
   }
 }
